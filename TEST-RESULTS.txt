@@ -1,0 +1,148 @@
+Test Case 1: 
+Testiranje osnovne aritmetičke operacije množenje (*) primenom dva negativna broja 
+1. U programu Start.java
+2. Uneti izraz sa brojevima: -2 * -2
+3. Očekivano: 4
+4. Dobijeno: ERROR 
+Test nije uspešan, rezultat nije tačan, očekivano je 4 a dobijeno je ERROR.
+
+Test Case 2: 
+Testiranje osnovne aritmetičke operacije deljenje (/) primenom dva negativna broja 
+1. U programu Start.java
+2. Uneti izraz sa brojevima: -10 / -2
+3. Očekivano: 5
+4. Dobijeno: ERROR 
+Test nije uspešan, rezultat nije tačan, očekivano je 5 a dobijeno je ERROR.
+
+Test Case 3: 
+Testiranje osnovne aritmetičke operacije sabiranje (+) primenom broja i jedne zagrade
+1. U programu Start.java
+2. Uneti izraz sa brojevima: 6 + (2+2)
+3. Očekivano: 10
+4. Dobijeno: ERROR 
+Test nije uspešan, rezultat nije tačan, očekivano je 10 a dobijeno je ERROR. 
+
+Test Case 4: 
+Testiranje osnovne aritmetičke operacije oduzimanje (-) primenom broja i jedne zagrade
+1. U programu Start.java
+2. Uneti izraz sa brojevima: 6 - (2+2)
+3. Očekivano: 2
+4. Dobijeno: ERROR 
+Test nije uspešan, rezultat nije tačan, očekivano je 2 a dobijeno je ERROR. 
+
+Test Case 5: 
+Testiranje osnovne aritmetičke operacije množenje (*) primenom broja i jedne zagrade
+1. U programu Start.java
+2. Uneti izraz sa brojevima: 2 * (2+2)
+3. Očekivano: 8
+4. Dobijeno: ERROR 
+Test nije uspešan, rezultat nije tačan, očekivano je 8 a dobijeno je ERROR. 
+
+Test Case 6: 
+Testiranje osnovne aritmetičke operacije deljenje (/) primenom broja i jedne zagrade
+1. U programu Start.java
+2. Uneti izraz sa brojevima: 15 / (2+1)
+3. Očekivano: 5
+4. Dobijeno: ERROR 
+Test nije uspešan, rezultat nije tačan, očekivano je 5 a dobijeno je ERROR. 
+#Kod svih osnovnih aritmetičkih operacija (+,-,*,/) primenom zagrada rezultat je ERROR. 
+
+Test Case 7: 
+Testiranje osnovne aritmetičke operacije sabiranje (+) primenom dve zagrade
+1. U programu Start.java
+2. Uneti izraz sa brojevima: (6*3) + (2+2)
+3. Očekivano: 22
+4. Dobijeno: ERROR 
+Test nije uspešan, rezultat nije tačan, očekivano je 22 a dobijeno je ERROR. 
+
+Test Case 8: 
+Testiranje osnovne aritmetičke operacije oduzimanje (-) primenom dve zagrade
+1. U programu Start.java
+2. Uneti izraz sa brojevima: (6*3) - (2+2)
+3. Očekivano: 14
+4. Dobijeno: ERROR 
+Test nije uspešan, rezultat nije tačan, očekivano je 14 a dobijeno je ERROR. 
+
+Test Case 9: 
+Testiranje osnovne aritmetičke operacije množenje (*) primenom dve zagrade
+1. U programu Start.java
+2. Uneti izraz sa brojevima: (2+3) * (2+2)
+3. Očekivano: 20
+4. Dobijeno: ERROR 
+Test nije uspešan, rezultat nije tačan, očekivano je 20 a dobijeno je ERROR. 
+
+Test Case 10: 
+Testiranje osnovne aritmetičke operacije deljenje (/) primenom dve zagrade
+1. U programu Start.java
+2. Uneti izraz sa brojevima: (6*3) / (2+7)
+3. Očekivano: 2
+4. Dobijeno: ERROR 
+Test nije uspešan, rezultat nije tačan, očekivano je 2 a dobijeno je ERROR. 
+#Kod svih aritmetičkih operacija (+,-,*,/)primenom dve zagrade rezultat je ERROR. 
+
+Test Case 11: 
+Testiranje osnovne aritmetičke operacije sabiranje (+) dva decimalna broja primenom zareza (,)
+1. U programu Start.java
+2. Uneti izraz sa brojevima: 10,5 + 4,5
+3. Očekivano: Pogrešan unos. Molimo vas da unesete validan matematički izraz.
+4. Dobijeno: ERROR 
+Test nije uspešan, rezultat nije tačan, očekivano je "Pogrešan unos. Molimo vas da unesete validan matematički izraz." a dobijeno je ERROR. 
+
+Test Case 12: 
+Testiranje unosa slova u izraz, upotreba reči "dva"
+1. U programu Start.java
+2. Uneti izraz sa brojevima: dva + 2
+3. Očekivano: Pogrešan unos. Molimo vas da unesete validan matematički izraz.
+4. Dobijeno: ERROR 
+Test nije uspešan, rezultat nije tačan, očekivano je "Pogrešan unos. Molimo vas da unesete validan matematički izraz." a dobijeno je ERROR. 
+
+Test Case 13: 
+Testiranje unosa nekog drugog simbola u izrazu, upotreba simbola(%)
+1. U programu Start.java
+2. Uneti izraz sa brojevima: 20 % 2
+3. Očekivano: Pogrešan unos. Molimo vas da unesete validan matematički izraz.
+4. Dobijeno: ERROR 
+Test nije uspešan, rezultat nije tačan, očekivano je "Pogrešan unos. Molimo vas da unesete validan matematički izraz." a dobijeno je ERROR. 
+
+Test Case 14: 
+Testiranje primene aritmetičke operacije stepenovanja (^)
+1. U programu Start.java
+2. Uneti izraz sa brojevima: 5^2
+3. Očekivano: 25
+4. Dobijeno: ERROR 
+Test nije uspešan, rezultat nije tačan, očekivano je 25 a dobijeno je ERROR. 
+
+Test Case 15: 
+Testiranje osnovne aritmetičke operacije sabiranje (+) primenom jednog veoma malog broja 
+1. U programu Start.java
+2. Uneti izraz sa brojevima: 2 + 0.00000005
+3. Očekivano: 2.00000005
+4. Dobijeno: 2.0 
+Test nije uspešan, rezultat nije tačan, očekivano je 2.00000005 a dobijeno je 2.0.  
+
+Test Case 16: 
+Testiranje osnovne aritmetičke operacije oduzimanje (-) primenom jednog veoma malog broja 
+1. U programu Start.java
+2. Uneti izraz sa brojevima: 2 - 0.00000005
+3. Očekivano: 1.99999995
+4. Dobijeno: 2.0 
+Test nije uspešan, rezultat nije tačan, očekivano je 1.99999995 a dobijeno je 2.0. 
+
+Test Case 17: 
+Testiranje obrnutog prevođenja iz eksponentnog oblika (E) u decimalni oblik 
+1. U programu Start.java
+2. Uneti izraz sa brojevima: 1.0E-5
+3. Očekivano: 0,00001
+4. Dobijeno: ERROR 
+Test nije uspešan, rezultat nije tačan, očekivano je 0,00001 a dobijeno je ERROR. 
+
+Test Case 18: 
+Testiranje sabiranja brojeva sa više cifri ako se između svake cifre nalazi razmak
+1. U programu Start.java
+2. Uneti izraz sa brojevima: 2 0 0 0 + 1 5 0 0
+3. Očekivano: Pogrešan unos. Molimo vas da unesete validan matematički izraz.
+4. Dobijeno: ERROR 
+Test nije uspešan, rezultat nije tačan, očekivano je "Pogrešan unos. Molimo vas da unesete validan matematički izraz." a dobijeno je ERROR.
+
+
+
